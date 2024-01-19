@@ -1,9 +1,10 @@
 module.exports = {
-  HOST: "localhost",
-  USER: "postgres",
-  PASSWORD: "123",
-  DB: "testdb",
+  HOST: "db-postgresql-fra1-40306-do-user-15499151-0.c.db.ondigitalocean.com",
+  USER: "doadmin",
+  PASSWORD: "AVNS_sqULhto-jrLyjbeasw1",
+  DB: "defaultdb",
   dialect: "postgres",
+  port: 25060,
   pool: {
     max: 5,
     min: 0,
