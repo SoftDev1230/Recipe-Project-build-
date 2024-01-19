@@ -42,8 +42,8 @@ require('./app/routes/user.routes')(app);
 require('./app/routes/upload.routes')(app);
 require('./app/routes/recipe.routes')(app);
 require('./app/routes/comment.routes.js')(app);
-require('./app/routes/recommended.routes')(app);
-require('./app/routes/search.routes')(app);
+//require('./app/routes/recommended.routes')(app);
+//require('./app/routes/search.routes')(app);
 
 // set port, listen for requests
 const PORT = process.env.PORT || 5000;
