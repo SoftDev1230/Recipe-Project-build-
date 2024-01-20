@@ -4,7 +4,7 @@ module.exports = {
   PASSWORD: "AVNS_sqULhto-jrLyjbeasw1",
   DB: "defaultdb",
   dialect: "postgres",
-  port: 25060,
+  PORT: 25060,
   pool: {
     max: 5,
     min: 0,
